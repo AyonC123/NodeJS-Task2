@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const arg = process.argv.slice(2).toString();
+const arg = process.argv[2];
 
 const data = fs.readFileSync(`${__dirname}\\text.txt`, "utf-8");
 
